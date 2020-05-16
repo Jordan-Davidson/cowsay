@@ -1,3 +1,6 @@
 <h1>Cowsay</h1>
 
-<a href=''>Home</a><a href='history/'>History</a>
+<a href='/'>Home</a>
+ {%for cow in data%}
+ <pre>{{cow}}</pre>
+ {%endfor%}
