@@ -1,29 +1,6 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Jordan-Davidson 
-Detrich
-/
-django_cowsay
-1
-00
- Code
- Issues 0
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
-django_cowsay/.gitignore
-@Detrich Detrich django cowsay finished, added templates, urls, views,models and updat…
-f4386a2 4 days ago
-232 lines (177 sloc)  3.78 KB
-  
+# Created by https://www.gitignore.io/api/venv,linux,macos,django,python,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=venv,linux,macos,django,python,visualstudiocode
 
 ### Django ###
 *.log
@@ -34,7 +11,6 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
-.idea
 
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
@@ -256,15 +232,5 @@ pip-selfcheck.json
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+# End of https://www.gitignore.io/api/venv,linux,macos,django,python,visualstudiocode
